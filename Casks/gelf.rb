@@ -3,7 +3,7 @@ cask "gelf" do
   name "gelf"
   desc "AI-powered Git commit message generator using Vertex AI (Gemini)"
   homepage "https://github.com/EkeMinusYou/gelf"
-  version "0.0.32"
+  version "0.0.34"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "gelf" do
   on_macos do
     on_intel do
       url "https://github.com/EkeMinusYou/gelf/releases/download/v#{version}/gelf_Darwin_x86_64.tar.gz"
-      sha256 "89ef0d242bd28c2205a43580feecb92345ac3c2828316f1cc172513c52d1284d"
+      sha256 "348e31afd462bb83c0dc1f3e397b66ced37a3b5213f6293160430b440865861a"
     end
     on_arm do
       url "https://github.com/EkeMinusYou/gelf/releases/download/v#{version}/gelf_Darwin_arm64.tar.gz"
-      sha256 "2d18b7b10830b04e5eb0083895f725fe66a277608985097e533d43397b79f025"
+      sha256 "d7c0a2f56db3a0bf9ee6cd3239067fb20213ba0a8c717b9273ac7f18d6d2bac3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/EkeMinusYou/gelf/releases/download/v#{version}/gelf_Linux_x86_64.tar.gz"
-      sha256 "8172a611baaa26678cd632e744d927cf4a24c93b6292544acff489fd14ecb1b0"
+      sha256 "51f685c71f24b2d28ad6631cbd0d57c85bf7cde6f5069f21575f6d0a1adc6df4"
     end
     on_arm do
       url "https://github.com/EkeMinusYou/gelf/releases/download/v#{version}/gelf_Linux_arm64.tar.gz"
-      sha256 "ef2aef8289eef51dc7037426838e8fdb43d1616ec7d44829e47bcefa81c3c2c8"
+      sha256 "a76a76376e89b12bf9569b495158e8ca35cff30a8e54283be344355d6be2eacb"
     end
   end
 
